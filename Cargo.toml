@@ -5,6 +5,6 @@ edition = "2018"
 authors = ["DumbMahreeo"]
 license = "MIT"
 repository = "https://github.com/DumbMahreeo/check-ends-macro."
-descrition = " A couple of macros to simulate match with starts and ends of a string."
+description = " A couple of macros to simulate match with starts and ends of a string."
 
 [dependencies]
