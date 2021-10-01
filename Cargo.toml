@@ -4,8 +4,6 @@ version = "1.0.0"
 edition = "2018"
 authors = ["DumbMahreeo"]
 license = "MIT"
-repository = "https://github.com/DumbMahreeo/check-ends-macro"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/DumbMahreeo/check-ends-macro."
 
 [dependencies]
