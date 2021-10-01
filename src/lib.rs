@@ -1,10 +1,10 @@
 /// Checks if string starts with any of the `&str`s
 #[macro_export]
-macro_rules! check_start {
+macro_rules! match_start {
     ($to_check:expr, $( $( $start:literal)|* => $to_return:expr )* ) => {
         if false {None} // This is here to use else if later
         $(
-            else if check_start!(@INTERNAL $to_check, $($start),*) {
+            else if match_start!(@INTERNAL $to_check, $($start),*) {
                 Some($to_return)
             }
         )*
@@ -20,11 +20,11 @@ macro_rules! check_start {
 
 /// Checks if string ends with any of the `&str`s
 #[macro_export]
-macro_rules! check_end {
+macro_rules! match_end {
     ($to_check:expr, $( $( $end:literal)|* => $to_return:expr )* ) => {
         if false {None} // This is here to use else if later
         $(
-            else if check_end!(@INTERNAL $to_check, $($end),*) {
+            else if match_end!(@INTERNAL $to_check, $($end),*) {
                 Some($to_return)
             }
         )*
