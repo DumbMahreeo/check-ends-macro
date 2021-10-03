@@ -1,10 +1,10 @@
 [package]
 name = "check-ends-macro"
-version = "1.0.2"
+version = "1.0.3"
 edition = "2018"
 authors = ["DumbMahreeo"]
 license = "MIT"
-repository = "https://github.com/DumbMahreeo/check-ends-macro."
+repository = "https://github.com/DumbMahreeo/check-ends-macro"
 description = " A couple of macros to simulate match with starts and ends of a string."
 
 [dependencies]
